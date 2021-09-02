@@ -1,0 +1,17 @@
+language: bash
+services: docker
+before_install:
+  - echo "We are in the Docker folder!"
+script:
+  - docker-compose build
+before_deploy:
+  - echo "${DOCKER_PASSWORD}" | docker login --username "${DOCKER_USERNAME}" --password-stdin
+deploy:
+  provider:script
+  script:
+    docker push oliverrah/mysql-recipe-drink-finder;
+    docker push oliverrah/recipe-drink-finder;
+  on:
+  branch: master
+notification:
+  email: false

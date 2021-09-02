@@ -1,0 +1,17 @@
+/recipe-drink-finder/src/main/java/com/recipedrinkfinder/entities/Ingredient.java
+/recipe-drink-finder/src/main/java/com/recipedrinkfinder/service/IngredientService.java
+/recipe-drink-finder/src/main/java/com/recipedrinkfinder/service/DrinkServiceImplementation.java
+/recipe-drink-finder/src/main/java/com/recipedrinkfinder/config/SwaggerConfig.java
+/recipe-drink-finder/src/main/java/com/recipedrinkfinder/entities/Drink.java
+/recipe-drink-finder/src/main/java/com/recipedrinkfinder/exceptions/DrinkErrorResponse.java
+/recipe-drink-finder/src/main/java/com/recipedrinkfinder/repository/DrinkRepositoryCustom.java
+/recipe-drink-finder/src/main/java/com/recipedrinkfinder/controller/DrinkController.java
+/recipe-drink-finder/src/main/java/com/recipedrinkfinder/service/DrinkService.java
+/recipe-drink-finder/src/main/java/com/recipedrinkfinder/DrinkFinderApplication.java
+/recipe-drink-finder/src/main/java/com/recipedrinkfinder/service/IngredientServiceImplementation.java
+/recipe-drink-finder/src/main/java/com/recipedrinkfinder/repository/DrinkRepository.java
+/recipe-drink-finder/src/main/java/com/recipedrinkfinder/repository/DrinkRepositoryImpl.java
+/recipe-drink-finder/src/main/java/com/recipedrinkfinder/controller/IngredientController.java
+/recipe-drink-finder/src/main/java/com/recipedrinkfinder/exceptions/DrinkExceptionHandler.java
+/recipe-drink-finder/src/main/java/com/recipedrinkfinder/repository/IngredientRepository.java
+/recipe-drink-finder/src/main/java/com/recipedrinkfinder/exceptions/DrinkNotFoundException.java
