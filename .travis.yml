@@ -7,7 +7,7 @@ script:
 before_deploy:
   - echo "${DOCKER_PASSWORD}" | docker login --username "${DOCKER_USERNAME}" --password-stdin
 deploy:
-  provider:script
+  provider: script
   script:
     docker push oliverrah/mysql-recipe-drink-finder;
     docker push oliverrah/recipe-drink-finder;
